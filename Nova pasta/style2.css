@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(92deg, #fbfbfb, #000000, #565656, #bbbbbb);
+    background-size: 800% 800%;
+    font-family: 'Courier New', Courier, monospace;
+    animation: AnimationName 20s ease infinite;
+    box-sizing: border-box;
+}
+
+.main{
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);;
+}
+h1, h2 {
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    justify-content: center ;
+    text-align: center;
+}
+
+p {
+    line-height: 1.5;
+    margin: auto;
+    width: 50%;
+    display: block;
+    text-align: center;
+    background-color: gainsboro ;
+    border-radius: 10px;
+    
+
+}
+
+ul {
+    background-color: gainsboro ;
+    border-radius: 10px;
+    padding: 20px   ;
+    margin: auto;
+    width: 50%;
+    
+
+}
+
+header {
+    font-family: 'Courier New', Courier, monospace;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    padding: 1em;
+}
+
+li::before {
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    justify-content: baseline;
+    width: 1em;
+    margin: auto;
+    width: 50%;
+    margin-left: -1em;
+}
+
