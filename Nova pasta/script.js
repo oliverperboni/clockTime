@@ -15,6 +15,10 @@ function update(){
     clock.textContent = `${String(min).padStart(2, '0')}:${String(timerSec).padStart(2, '0')}`;
 }
 
+
+function hello(){
+    console.log("hello")
+}
 function start() {
     pause = !pause
     watchTimer= true
